@@ -20,7 +20,7 @@ text_input = st.text_area(
     "I should've seen you was trouble right from the start Taught me so many lessons."
 )
 
-question = st.text_input("Escribe una pregunta (en inglés):", "Who is playing?")
+question = st.text_input("Escribe una pregunta (en inglés):", "Who is singing?")
 
 # Inicializar stemmer para inglés
 stemmer = SnowballStemmer("english")
